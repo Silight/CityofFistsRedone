@@ -1,0 +1,668 @@
+/* CSS Document */
+
+/*Base sheet produced by Andrew Edwards. If I knew how to lisence this it would be under 
+the open source initiative, opensource.org. Feel free to reuse anything on this sheet in 
+whole or as a part. I only ask that you include credit to the original author.
+
+Cheers. 
+
+*/
+
+
+/* Reset */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+div, span, article, aside, footer, header,
+hgroup, nav, section, h1, h2, h3, h4, h5, h6, 
+p, blockquote, a, ol, ul, li, table, tr, th, 
+tbody, tfoot, thead {
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+img {
+	padding: 0;
+	border: 0;
+}
+
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin:0; 
+	padding:0; 
+	border: 0; 
+	vertical-align:baseline;
+	background:transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, select, textarea, form, fieldset {
+	margin:0;
+	padding: 0; 
+	border: 0;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, selection {
+	display:block;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%;
+	text-indent: 0;
+	text-decoration: none;
+	text-align: justify;
+	color: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/*global*/
+
+html {
+	
+}
+
+body{
+	background-image:url(images/backgroung.png);
+	background-repeat:repeat-x;
+	background-color: #2d2926;
+	background-attachment:fixed;
+}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold; 
+	color: #000;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+	margin: 0;
+}
+
+/*text elements*/
+
+p {
+	color:#000;
+	font-size:12px;
+	line-height:150%
+}
+
+p .left {
+	margin:1.5em 1.5em 1.5em 0;
+	padding:0;
+}
+
+p .right {
+	margin:1.5em 0 1.5em 1.5em;
+	padding:0;
+}
+
+a {
+	
+}
+
+a:link {
+	color:#00f;
+}
+
+a:visited {
+	color:0f0;
+}
+
+a:active {
+	color:#000;
+}
+
+a:focus {
+	color:#666;
+}
+
+a:hover {
+	color:#f00;
+}
+
+blockquote {
+	color:#000;
+	font-size:12px;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/*images*/
+
+/*lists*/
+
+ul {
+	
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+ul li {
+	color: #FFF;
+	font-size: 18px;
+}
+
+ol li {
+	color:#000; 
+	font-size:12px;
+}
+
+dl {
+	
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+/*tables */
+
+table {
+	width: 100%;
+}
+
+tr {
+	
+}
+
+.odd {
+	background-color:#eee;
+}
+
+.even {
+	background-color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+thead {
+	background:#ccc;
+}
+
+tbody {
+	
+}
+
+th, td, caption {
+	
+}
+
+caption {
+	
+}
+
+tfoot {
+	
+}
+
+.tfooter {
+	background-color:#ccc;
+	text-align:center;
+	font-style:italic;
+}
+
+caption {
+	background:#efefef;
+}
+
+
+
+/*containers*/
+#top {
+	width: 920px;
+	margin: 0px auto;
+}
+
+#logo {
+	float: left;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0px auto;
+	background-color: #371461;
+}
+
+#topnav {
+	background-color: #222222;
+	clear: both;	
+}
+#topnav ul {
+	width: 100%;
+	float: left;
+	margin: -5px 0 0 0;
+	background-color: #371461;
+	border-bottom: 3px #111 solid;
+	padding-top: 10px;
+	border-top: 3px #111 solid;
+}
+#topnav ul li {
+	display: inline;
+}
+
+#topnav ul li a {
+	float: left;
+	padding: 10px 20px;
+}
+
+#topnav a:link {
+	color: #fff;
+}
+#topnav a:visited {
+	color: #fff;
+}
+#topnav a:active {
+	color: #fff;
+}
+#topnav a:hover {
+	color: #fff;
+	background-color: #900;
+}
+#topnav a: focus {
+	color: #fff;
+}
+#social {
+	float:right;
+}
+
+#banner {
+	
+}
+
+#subbanner {
+	width: 100%;
+	background-color: #000;
+	padding: 15px 0;
+	overflow: hidden;
+	border-bottom: 2px #000 solid;
+	border-top: 2px #000 solid;
+}
+#subbanner img {
+	margin-left: 100px;
+}
+#leftside {
+	padding:20px;	
+	margin-right:675px;
+	clear:both;
+}
+#subbanner h1{
+	color:#FFF;
+	text-align:center;
+}
+#subbanner h3 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 180%;
+	width: 500px;
+	padding: 20px;
+	float: right;
+	clear: both;
+	margin-top: -200px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#subbanner p {
+	color: #FFF;
+	width: 500px;
+	padding: 20px;
+	float: right;
+	margin-top:-150px;
+}
+
+#content-wrapper {
+	background-color:#FFF;
+	width:auto;
+	height: 400px;
+	border: medium #371461 solid;
+}
+#content {
+	float:left;
+	width:670px;
+	padding:20px;
+}
+#content h1 {
+	margin:0 0 20px 0;
+	font-size:32px;
+	border-bottom:1px #111 solid;
+	padding:20px 0;
+}
+#content p {
+	margin:18px 0;
+	line-height:200%;
+	
+}
+#content h2 {
+	margin:20px 0 0 0; 
+}
+#content a:link {
+	color: #309;
+}
+#content a:visited {
+	color: #309;
+}
+#content a:active {
+	color: #309;
+}
+#content a:hover {
+	color: #000;
+	background-color: #900;
+}
+#content a: focus {
+	color: #309;
+}
+
+#rightside {
+	padding:20px;	
+	margin-left:675px;
+}
+#rightside h2 {
+	margin:20px 0 10px 0;
+}
+
+#rightside p {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside ul li {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside table, th, td {
+	border:1px solid black;
+	width:100%;
+	margin-bottom:8px;
+}
+#rightside th, td {
+	height:50px;
+	text-align:center;
+	vertical-align:baseline;
+}
+#rightside a:link {
+	color: #000;
+}
+#rightside a:visited {
+	color: #000;
+}
+#rightside a:active {
+	color: #000;
+}
+#rightside a:hover {
+	color: #000;
+	background-color: #900;
+}
+#rightside a: focus {
+	color: #000;
+}
+
+#calender {
+	text-align:center;
+	border-top: thick #000;
+}
+#galleryContainer {
+	border:medium #371461;
+	background-color: #FFF;
+	text-align:center;
+}
+#rosterGirl {
+	float:right;
+	clear:both;
+	text-align:center;
+	margin-top: 20px;
+	margin-right: 140px;
+}
+
+#footer {
+	clear: both;
+	background-color: #000000;
+	padding: 10px 0;
+	border-top: 2px solid #000;
+}
+#footer p {
+	text-align:center;
+	color:#fff;
+	font-size:x-small;
+}
+#footer a:link {
+	color: #309;
+}
+#footer a:visited {
+	color: #309;
+}
+#footer a:active {
+	color: #309;
+}
+#footer a:hover {
+	color: #000;
+	background-color: #900;
+}
+#footer a: focus {
+	color: #309;
+}
+
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	clear:both;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+/*Gallery Stuff*/
+
+
+#container { width:900px; height:498px; margin:0 auto; background-color:#111; margin-top:40px;}
+#container .mainframe {
+	width: 900px;
+	height: 598px;
+	float: left;
+}
+#container .thumbnails {
+	float: left;
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: 9px 70px;
+}
+.thumbnailimage { float:left; padding:7px;}
+.large_thumb	{float:left; position: relative; width:64px; height:64px; padding:0px 10px 0px 0;}
+img.large_thumb_image	{position:absolute; left:5px; top:4px;}
+.large_thumb_border	{width:64px; height:64px; background:url('images/interface/thumb_border.png'); position:absolute; }
+.large_thumb_shine	{width:54px; height:54px; background:url('images/interface/shine.png'); position:absolute; background-position:-150px 0; left:5px; top:4px; background-repeat:no-repeat;}
+.thumb_container { width:64px; height:64px; background-image:url('images/interface/thumb_holder.png'); }
+#largephoto {
+	width: 100%;
+	height: 500px;
+	background-color: #333333;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+#largetrans {
+	width: 100%;
+	height: 100%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.large_image { display:none}
+#containertitle { position:absolute; margin-top:35px; margin-left:40px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-shadow: 0px 1px 2px #fff;}
+#largecaption {  text-align:center; height:100px; width:100%; background-color:#111; position:absolute; width: 500px; margin-top:270px; -moz-border-radius-bottomleft: 10px;  -moz-border-radius-bottomright: 10px; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; display:none; color:#fff; font-size:30px; font-family:Arial; letter-spacing:-1px; font-weight:bold}
+#largecaption .captionContent { padding:5px;}
+#largecaption .captionShine { background:url('images/interface/bigshine.png'); position:absolute;  width: 444px; height: 100px; background-position:-150px 0;background-repeat:no-repeat;}
+#loader {
+	width: 150px;
+	height: 150px;
+	background-image: url('images/interface/loader.gif');
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 1430px;
+	top: 390px;
+}
